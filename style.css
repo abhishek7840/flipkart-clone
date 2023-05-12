@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: blue;
+    
+}
+nav {
+    display: flex;
+}
+nav ul{
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    align-self:flex-end ;
+    color: white;
+    padding:0 23px;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    
+}
+nav ul li :hover{
+    /* color: rgb(13, 3, 3); */
+   text-decoration: solid underline ;
+   font-weight: bolder;
+ 
+}
+
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 120px;
+    padding: 0 30px;
+}
+.search{
+    display: flex;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  
+  padding: 0 20px;
+   
+}
+.search a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.search :hover{
+    text-decoration: solid ;
+    font-weight: bolder;
+}
+.search input{
+    width: 600px;
+    height: 40px;
+    border: 1px solid black;
+    
+}
+
+.container{
+    min-height: calc(100vh - 60px - 10vh);
+  
+    padding-bottom: 20px;;
+}
+
+.slider{
+    overflow: hidden;
+    display: flex;
+    width:80vw;
+    margin: 30px auto;
+    justify-content: center;
+}
+.slider img{
+    height: 370px;
+    width: 800px;
+}
+.card{
+    max-width: 86vw;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    padding: 30px;
+}
+.card-items{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+.card h2{
+    background-color: purple;
+    border-radius: 5px;
+}
+.card p{
+    background-color: aqua;
+    border-radius: 2px;
+}
+footer{
+    background-color: blue;
+    color: white;
+    height: 10vh;
+    font-family: 'Rubik', sans-serif;
+}

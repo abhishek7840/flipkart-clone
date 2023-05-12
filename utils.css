@@ -1,0 +1,16 @@
+.all-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.pad{
+    padding: 8px;;
+}
+.pad1{
+    padding: 3px;;
+}
+.cent{
+    text-align: center;
+}

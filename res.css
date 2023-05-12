@@ -1,0 +1,20 @@
+@media screen and (max-width : 1000px) {
+    
+    nav{
+        flex-direction: column;
+    }
+    
+    .logo{
+        justify-content: center;
+    } 
+    .search{
+        padding: 5px 20px;
+        justify-content: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .card{
+        display: grid;
+    }
+}
